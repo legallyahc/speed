@@ -159,8 +159,9 @@ this will rely heavily on good communication between the groups.
 I feel that this is the ideal routing, maintaining an equivalence of
 times between the groups.
 
-\<\<\<\<\<\<\< HEAD ### Ideal two-group routing *Group 1*:
-**Berri-UQAM** -> **Honore-Beaugrand** -> **Angrinon** ->
+### Ideal two-group routing
+
+*Group 1*: **Berri-UQAM** -> **Honore-Beaugrand** -> **Angrinon** ->
 **Lionel-Groulx** -> **Cote-Vertu** -> **Snowdon** -> Western Blue Line
 station
 
@@ -249,10 +250,4 @@ for whichever team arrives first to go to the other platform.
 *Group 3*: **Berri-UQAM** -> **Longeuil-Universite-Sherbrooke** ->
 **Berri-UQAM** -> **Montmorency** -> **Sherbrooke**
 
-# With a maximal time of 94 minutes (from *Group 2*).
-
-## Three-group team approach
-
-I feel that the ideal approach will be to minimize initial transfers and
-then bringing the three groups back together will result in all parts of
-the metro being covered.
+With a maximal time of 94 minutes (from *Group 2*).
