@@ -46,21 +46,18 @@ predictions below.
 
 1.  A team must all begin in the same place.
 2.  A team must all end in the same place.
-
--   People are allowed to leave the speedrun part way through, if they
-    desire
-
+    -   People are allowed to leave the speedrun part way through, if
+        they desire
 3.  A team cannot divide into more groups than allowed.
 4.  Each station a group visits contributes to their group total.
 5.  Time begins when the first member of a team boards a train.
 6.  Time ends when the group is all together (and all stations have been
     visted).
 7.  For our purposes, we will begin at Berri-UQAM
-
--   Aside: I believe that the more ideal starting place would have been
-    an extremity like **Honore-Beaugrand**, particularly in a two group
-    run, but may make less snese in a three group or larger run
-    (effectively more group time is used on this leg).
+    -   Aside: I believe that the more ideal starting place would have
+        been an extremity like **Honore-Beaugrand**, particularly in a
+        two group run, but may make less snese in a three group or
+        larger run (effectively more group time is used on this leg).
 
 ## Two-group team approach
 
