@@ -1,0 +1,30 @@
+Post-run digress
+================
+AHC
+2023-03-08
+
+## General info
+
+Ultimately we did one team: three groups, and did not use the route I
+suggested! We used one made by Laura that started at **Jean-Talon** and
+should have ended at **Lionel-Groulx** (kinda broke my assumption of
+starting at **Berri-UQAM** oops). This had *Group 1* go to
+**Berri-UQAM**, take the Yellow line to
+**Longeuil-Universite-Sherbrooke** and back, then over to
+**Honore-Beaugrand** and back to **Lionel-Groulx**. *Group 2* took the
+Blue line to **Saint-Michel** and back to **Jean-Talon**, then Orange to
+**Montmorency**, and then down to **Lionel-Groulx**. *Group 3* went to
+**Snowdon**, up to **Cote-Vertu**, down to **Lionel-Groulx**, over to
+**Angrinon**, and back to **Lionel-Groulx**. All these paths were
+followed, but due to a major delay at **Berri-UQAM** for *Group 1* the
+run ended at **Berri-UQAM**, with *Group 1* coming from the East and
+*Group 2* and *Group 3* taking the Green line from **Lionel-Groulx**.
+
+## Going from here
+
+I think I’m going to do a one group run again soon. I think co-op is a
+good approach for as many people as came this year. It was suggested
+that a competitive challenge could be interesting, with each team having
+to complete some certain action to give it an edge, else it would be a
+bit toothless as both teams would likely attempt the same (or very
+similar) routing.
