@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+
+<channel>
+	<title>Montréal Métro Speedruns</title>
+	<link>https://speed.encours.xyz</link>
+	<description>A feed providing updates on Métro speedruns in Montŕeal, QC.</description>
+	<copyright>2024 alice, (AHC). girl. why u using my websites content. why r u referencing the rss? just steal it.</copyright>
+	<language>en-ca</language>
+	<atom:link href="https://speed.encours.xyz/feed.xml" rel="self" type="application/rss+xml" />
+
+  <item>
+		<title>Init</title>
+		<pubDate>Mon, 11 Nov 2024 20:28:00 -0500</pubDate>
+		<link>https://speed.encours.xyz</link>
+		<guid>https://speed.encours.xyz</guid>
+		<description>The initialization of this site with current rules and known records.</description>
+		<category>Update</category>
+	</item>
+</channel>

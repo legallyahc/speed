@@ -1,0 +1,137 @@
+html.dark #button-dark-mode #light-mode-icon {
+	@apply hidden;
+}
+html:not(.dark) #button-dark-mode #dark-mode-icon {
+	@apply hidden;
+}
+
+html {
+	font-size: 14pt;
+	font-family: sans-serif;
+	background-color: initial;
+	margin: 0 17%;
+	background-color: #fff;
+	color: #0A0A0A;
+}
+
+html button {
+	background-color: #0f0f0f;
+}
+
+html.dark {
+	background-color: #0f0f0f;
+	color: #fff;
+}
+
+html.dark button {
+	background-color: #fff;
+}
+
+html, body {
+	box-sizing: border-box;
+	height: 100%;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+main {
+	flex-grow: 1;
+}
+
+footer {
+	font-size: 0.8rem;
+	padding-bottom: 0.5rem;
+}
+
+header, nav, footer {
+	flex-grow: 0;
+	flex-shrink: 0;
+}
+
+/* general color and font size */
+h1, h2, h3, h4, h5, p, div, li, header, span, hr, footer {
+	color: inherit;
+}
+
+a:link, a:visited, button, :is(h1, h2, h3, h4, h5) strong {
+	color: #fcbabe;
+}
+
+a[href]:where(
+	[href^="http"]
+)::after {
+	content: "↗";
+	color: #fcbabe;
+}
+
+a[href]:where(
+	.no_arrow,
+)::after {
+	content: "";
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.smaller {
+	font-size: 0.8em
+} /* fun little small text :3 */
+
+/* header stuff */
+header {
+	text-align: center;
+} /* for the site title on each page */
+
+header h1 a {
+	text-decoration: none;
+} /* to make sure that the link in the site title doesnt show */
+
+
+/* flexbox nicities stuff */
+.wrapper {
+	display: flex;
+	flex-direction: row;
+}
+
+.wrapper piece {
+	flex: 1;
+	margin: 0 0.1em;
+}
+
+.wrapper h3 {
+	text-align: center;
+}
+
+
+span.alice, a.alice {
+	color: aliceblue;
+}
+
+a.alice:hover {
+	background-color: #0f0f0f;
+}
+
+a.alice.no_arrow {
+	text-decoration: none;
+}
+/* call after everything it modifies */
+/* "responsive web design" */
+@media only screen and (max-width:1080px){
+	html {
+		margin: 0;
+	}
+
+	main {
+		margin: auto 1rem;
+    }
+
+	footer {
+		margin: 0 1rem;
+		width: calc(100% - 2rem);
+	}
+}
