@@ -8,8 +8,18 @@
 	<copyright>Public domain, baby. Lap it up! By ahc.</copyright>
 	<language>en-ca</language>
 	<atom:link href="https://speed.encours.xyz/feed.xml" rel="self" type="application/rss+xml" />
+
+	<item>
+		<title>New STM 100% Record!</title>
+		<pubDate>Mon, 18 Nov 2024 13:29:00 -0500</pubDate>
+		<link>https://speed.encours.xyz#1</link>
+		<guid>https://speed.encours.xyz#1</guid>
+		<description>Ellie set a new STM 100% record on Friday (2024-11-15), with a time of 2h52m26s! Congradulations!</description>
+		<category>Update</category>
+		<category>WR</category>
+	</item>
  
-  <item>
+	<item>
 		<title>Init</title>
 		<pubDate>Mon, 11 Nov 2024 20:28:00 -0500</pubDate>
 		<link>https://speed.encours.xyz</link>
