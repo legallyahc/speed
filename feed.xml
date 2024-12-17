@@ -10,6 +10,35 @@
 	<atom:link href="https://speed.encours.xyz/feed.xml" rel="self" type="application/rss+xml" />
 
 	<item>
+		<title>New STM+REM 100% record!</title>
+		<pubDate>Mon, 16 Dec 2024 21:19:00 -0500</pubDate>
+		<link>https://speed.encours.xyz#4</link>
+		<guid>https://speed.encours.xyz#4</guid>
+		<description>Ellie set a new STM+REM 100% record on Monday (2024-12-16), with a time of 3h26m55s!</description>
+		<category>Update</category>
+		<category>WR</category>
+	</item>
+
+	<item>
+		<title>New STM 100% record!</title>
+		<pubDate>Mon, 16 Dec 2024 21:17:00 -0500</pubDate>
+		<link>https://speed.encours.xyz#3</link>
+		<guid>https://speed.encours.xyz#3</guid>
+		<description>alice, and cat set a new STM 100% record on Monday (2024-12-16), with a time of 2h43m24s!</description>
+		<category>Update</category>
+		<category>WR</category>
+	</item>
+
+	<item>
+		<title>New STM 100% run!</title>
+		<pubDate>Fri, 13 Dec 2024 02:16:00 -0500</pubDate>
+		<link>https://speed.encours.xyz#2</link>
+		<guid>https://speed.encours.xyz#2</guid>
+		<description>Asa, Blair, and Ellie logged a new STM 100% attempt on Tuesday (2024-12-10), with a time of 3h08m02s, putting them in 3rd place.</description>
+		<category>Update</category>
+	</item>
+
+	<item>
 		<title>New STM 100% Record!</title>
 		<pubDate>Mon, 18 Nov 2024 13:29:00 -0500</pubDate>
 		<link>https://speed.encours.xyz#1</link>

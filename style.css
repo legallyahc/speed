@@ -96,15 +96,22 @@ header h1 a {
 .wrapper {
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: space-between;
+	justify-content: center;
 }
 
 .wrapper piece {
-	flex: 1;
-	margin: 0 0.1em;
+	margin: 0 0.5em;
+	max-width: 18vw;
 }
 
 .wrapper h3 {
 	text-align: center;
+}
+
+.wrapper p {
+	width: 100%;
 }
 
 
@@ -126,8 +133,12 @@ a.alice.no_arrow {
 		margin: 0;
 	}
 
-	main {
-		margin: auto 1rem;
+    .wrapper piece {
+    	max-width: 40vw;
+    }
+
+    .wrapper h3.bad {
+    	word-break: break-word;
     }
 
 	footer {
