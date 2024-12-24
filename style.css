@@ -1,3 +1,11 @@
+@font-face {
+	font-family: Stm;
+	font-style: bold;
+	font-weight: 400;
+	font-display: auto;
+	src: url(./stmmontreal_bold-webfont.woff);
+}
+
 html.dark #button-dark-mode #light-mode-icon {
 	@apply hidden;
 }
@@ -16,6 +24,8 @@ html {
 
 html button {
 	background-color: #0f0f0f;
+	color: #008de3;
+	font-family: Stm;
 }
 
 html.dark {
@@ -25,6 +35,7 @@ html.dark {
 
 html.dark button {
 	background-color: #fff;
+	color: #103890;
 }
 
 html, body {
@@ -52,20 +63,27 @@ header, nav, footer {
 	flex-shrink: 0;
 }
 
+h1, h2, h3, h4, h5 {
+	font-family: Stm, sans-serif;
+}
+
 /* general color and font size */
 h1, h2, h3, h4, h5, p, div, li, header, span, hr, footer {
 	color: inherit;
 }
 
-a:link, a:visited, button, :is(h1, h2, h3, h4, h5) strong {
-	color: #fcbabe;
+a:link, a:visited, :is(h1, h2, h3, h4, h5) strong {
+	color: #103890;
+}
+
+.dark :is(a:link, a:visited, :is(h1, h2, h3, h4, h5) strong) {
+	color: #008de3;
 }
 
 a[href]:where(
 	[href^="http"]
 )::after {
 	content: "↗";
-	color: #fcbabe;
 }
 
 a[href]:where(
@@ -85,10 +103,12 @@ a:hover{
 /* header stuff */
 header {
 	text-align: center;
+	font-family: Stm, sans-serif;
 } /* for the site title on each page */
 
-header h1 a {
+header h1 :is(a:link, a:visited) {
 	text-decoration: none;
+	/* if it gets implimented, use `device-cmyk(100, 60, 0, 6)`.*/
 } /* to make sure that the link in the site title doesnt show */
 
 
@@ -115,12 +135,12 @@ header h1 a {
 }
 
 
-span.alice, a.alice {
-	color: aliceblue;
+a.alice {
+	color: #002647;
 }
 
-a.alice:hover {
-	background-color: #0f0f0f;
+.dark .alice {
+	color: aliceblue;
 }
 
 a.alice.no_arrow {
