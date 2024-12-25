@@ -67,16 +67,20 @@ h1, h2, h3, h4, h5 {
 	font-family: Stm, sans-serif;
 }
 
+h1 {
+	text-align: center;
+}
+
 /* general color and font size */
 h1, h2, h3, h4, h5, p, div, li, header, span, hr, footer {
 	color: inherit;
 }
 
-a:link, a:visited, :is(h1, h2, h3, h4, h5) strong {
+a:link, a:visited, :is(h1, h2, h3, h4, h5) strong, header hr {
 	color: #103890;
 }
 
-.dark :is(a:link, a:visited, :is(h1, h2, h3, h4, h5) strong) {
+.dark :is(a:link, a:visited, :is(h1, h2, h3, h4, h5) strong, header hr) {
 	color: #008de3;
 }
 
@@ -111,6 +115,13 @@ header h1 :is(a:link, a:visited) {
 	/* if it gets implimented, use `device-cmyk(100, 60, 0, 6)`.*/
 } /* to make sure that the link in the site title doesnt show */
 
+header hr {
+	margin: 0 1em 1em;
+}
+
+header h1 {
+	margin-bottom: 0;
+}
 
 /* flexbox nicities stuff */
 .wrapper {
@@ -134,18 +145,6 @@ header h1 :is(a:link, a:visited) {
 	width: 100%;
 }
 
-
-a.alice {
-	color: #002647;
-}
-
-.dark .alice {
-	color: aliceblue;
-}
-
-a.alice.no_arrow {
-	text-decoration: none;
-}
 /* call after everything it modifies */
 /* "responsive web design" */
 @media only screen and (max-width:1080px){
