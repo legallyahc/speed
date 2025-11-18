@@ -4,18 +4,27 @@
 <channel>
 	<title>Montréal Métro Speedruns</title>
 	<link>https://speed.encours.xyz</link>
-	<description>A feed providing updates on Métro speedruns in Montŕeal, QC.</description>
-	<copyright>Public domain, baby. Lap it up! By ahc.</copyright>
+	<description>A feed providing updates on transit speedruns in Montŕeal, QC.</description>
+	<copyright>CC-0. Public domain, baby. Lap it up! By ahc.</copyright>
 	<language>en-ca</language>
 	<atom:link href="https://speed.encours.xyz/feed.xml" rel="self" type="application/rss+xml" />
 
 	<item>
-		<title>New EXO+STM 100% record!</title>
+		<title>REM Deux-Montagnes branch opens—two new Métro+REM runs and a new record!</title>
+		<pubDate>Mon, 17 Nov 2025 19:25:00 -0500</pubDate>
+		<link>https://speed.encours.xyz#7</link>
+		<guid>https://speed.encours.xyz#7</guid>
+		<description>With the opening of the new REM Deux-Montagnes branch, two new Métro+REM runs were recorded today. Evan recorded a time of 4h52m05s, with Alice and Cat starting five minutes after to just eek out a 4h41m02s record before Evan completed his run.</description>
+		<category>Update</category>
+		<category>WR</category>
+	</item>
+
+	<item>
+		<title>New Métro+REM+Exo 100% record!</title>
 		<pubDate>Mon, 14 Apr 2025 11:11:11 -0500</pubDate>
 		<link>https://speed.encours.xyz#5</link>
 		<guid>https://speed.encours.xyz#5</guid>
-		<description>Andrew Wang set a new EXO+STM 100% record on Monday (2025-04-14), with a time from first doors close to last door open of 34h51!</description
-
+		<description>Andrew Wang set a new Métro+REM+Exo 100% record on Monday (2025-04-14), with a time from first doors close to last door open of 34h51m!</description>
 		<category>Update</category>
 		<category>WR</category>
 	</item>
