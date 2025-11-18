@@ -10,6 +10,15 @@
 	<atom:link href="https://speed.encours.xyz/feed.xml" rel="self" type="application/rss+xml" />
 
 	<item>
+		<title>And a new Métro 100% run!</title>
+		<pubDate>Mon, 17 Nov 2025 22:54:00 -0500</pubDate>
+		<link>https://speed.encours.xyz#8</link>
+		<guid>https://speed.encours.xyz#8</guid>
+		<description>Evan also completed an independent Métro 100% run within his Métro+REM 100%, ending with a time of 2h57m19s after starting at Longueuil (!!!).</description>
+		<category>Update</category>
+	</item>
+
+	<item>
 		<title>REM Deux-Montagnes branch opens—two new Métro+REM runs and a new record!</title>
 		<pubDate>Mon, 17 Nov 2025 19:25:00 -0500</pubDate>
 		<link>https://speed.encours.xyz#7</link>
